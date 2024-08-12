@@ -1,0 +1,18 @@
+{
+	"layers": [
+		{
+			"index": 0,
+			"effectID": 374,
+			"scale": 1,
+			"fileDataID": 186768,
+			"file": "..\\..\\tileset\\aeriepeaks\\aeriepeaksrockymudbase_s.png"
+		},
+		{
+			"index": 1,
+			"effectID": 363,
+			"scale": 1,
+			"fileDataID": 186763,
+			"file": "..\\..\\tileset\\aeriepeaks\\aeriepeaksrockbase_s.png"
+		}
+	]
+}

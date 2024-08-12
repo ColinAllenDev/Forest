@@ -1,0 +1,32 @@
+{
+	"layers": [
+		{
+			"index": 0,
+			"effectID": 1391,
+			"scale": 1,
+			"fileDataID": 188790,
+			"file": "..\\..\\tileset\\silverpine\\silverpinedirt_s.png"
+		},
+		{
+			"index": 1,
+			"effectID": 1140,
+			"scale": 1,
+			"fileDataID": 188792,
+			"file": "..\\..\\tileset\\silverpine\\silverpinegrass_s.png"
+		},
+		{
+			"index": 2,
+			"effectID": 10102,
+			"scale": 1,
+			"fileDataID": 188802,
+			"file": "..\\..\\tileset\\silverpine\\silverpineshore_s.png"
+		},
+		{
+			"index": 3,
+			"effectID": 1390,
+			"scale": 1,
+			"fileDataID": 188798,
+			"file": "..\\..\\tileset\\silverpine\\silverpinerock_s.png"
+		}
+	]
+}

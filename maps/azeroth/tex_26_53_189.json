@@ -1,0 +1,32 @@
+{
+	"layers": [
+		{
+			"index": 0,
+			"effectID": 3818,
+			"scale": 1,
+			"fileDataID": 189018,
+			"file": "..\\..\\tileset\\wetlands\\wetlandsdirt01_s.png"
+		},
+		{
+			"index": 1,
+			"effectID": 4118,
+			"scale": 1,
+			"fileDataID": 188533,
+			"file": "..\\..\\tileset\\generic\\underwaterrock01_s.png"
+		},
+		{
+			"index": 2,
+			"effectID": 4158,
+			"scale": 1,
+			"fileDataID": 188531,
+			"file": "..\\..\\tileset\\generic\\underwatergrass02_s.png"
+		},
+		{
+			"index": 3,
+			"effectID": 473,
+			"scale": 1,
+			"fileDataID": 189000,
+			"file": "..\\..\\tileset\\westwood\\westfallrockbase_s.png"
+		}
+	]
+}

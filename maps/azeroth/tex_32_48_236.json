@@ -1,0 +1,32 @@
+{
+	"layers": [
+		{
+			"index": 0,
+			"effectID": 776,
+			"scale": 1,
+			"fileDataID": 187127,
+			"file": "..\\..\\tileset\\elwynn\\elwynngrassbase_s.png"
+		},
+		{
+			"index": 1,
+			"effectID": 993,
+			"scale": 1,
+			"fileDataID": 187138,
+			"file": "..\\..\\tileset\\elwynn\\elwynnrockbasetest2_s.png"
+		},
+		{
+			"index": 2,
+			"effectID": 781,
+			"scale": 1,
+			"fileDataID": 186770,
+			"file": "..\\..\\tileset\\aeriepeaks\\aeriepeaksscrubbrushbase_s.png"
+		},
+		{
+			"index": 3,
+			"effectID": 1106,
+			"scale": 1,
+			"fileDataID": 187115,
+			"file": "..\\..\\tileset\\elwynn\\elwynndirtbase2_s.png"
+		}
+	]
+}

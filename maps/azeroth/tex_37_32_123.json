@@ -1,0 +1,32 @@
+{
+	"layers": [
+		{
+			"index": 0,
+			"effectID": 374,
+			"scale": 1,
+			"fileDataID": 186768,
+			"file": "..\\..\\tileset\\aeriepeaks\\aeriepeaksrockymudbase_s.png"
+		},
+		{
+			"index": 1,
+			"effectID": 363,
+			"scale": 1,
+			"fileDataID": 186763,
+			"file": "..\\..\\tileset\\aeriepeaks\\aeriepeaksrockbase_s.png"
+		},
+		{
+			"index": 2,
+			"effectID": 351,
+			"scale": 1,
+			"fileDataID": 186783,
+			"file": "..\\..\\tileset\\alteracmtns\\alteracgrassbase2_s.png"
+		},
+		{
+			"index": 3,
+			"effectID": 366,
+			"scale": 1,
+			"fileDataID": 186759,
+			"file": "..\\..\\tileset\\aeriepeaks\\aeriepeaksgrasshighlight_s.png"
+		}
+	]
+}

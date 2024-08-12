@@ -1,0 +1,32 @@
+[package]
+name = "forest"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[dependencies]
+tobj = "4.0.2"
+thiserror = "1.0.63"
+itertools = "0.13.0"
+
+[dependencies.bevy]
+version = "0.14.0"
+default-features = false
+features = [
+	# Bevy Functionality:
+	"multi_threaded",	# Run with multi-threading enabled
+	"bevy_asset",		# Asset management
+	"bevy_scene",		# Scene management
+	"bevy_render",		# Rendering pipeline core
+	"bevy_pbr",			# 3D physically-based Rendering
+	"dynamic_linking",	# Dynamic linking for faster compiles
+	"trace",			# Tracing for performance measure
+	"png",				# PNG loading
+	"x11",				# Linux (X11) Support
+	"tonemapping_luts"	# Tonemapping Support
+]

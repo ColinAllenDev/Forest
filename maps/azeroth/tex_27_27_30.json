@@ -1,0 +1,32 @@
+{
+	"layers": [
+		{
+			"index": 0,
+			"effectID": 1143,
+			"scale": 1,
+			"fileDataID": 188953,
+			"file": "..\\..\\tileset\\tirisfall\\tirisfalldirtrock07_s.png"
+		},
+		{
+			"index": 1,
+			"effectID": 1147,
+			"scale": 1,
+			"fileDataID": 188958,
+			"file": "..\\..\\tileset\\tirisfall\\tirisfallrockymudgrass_s.png"
+		},
+		{
+			"index": 2,
+			"effectID": 1144,
+			"scale": 1,
+			"fileDataID": 188960,
+			"file": "..\\..\\tileset\\tirisfall\\tirisfallrockymudgrasshighlight_s.png"
+		},
+		{
+			"index": 3,
+			"effectID": 1159,
+			"scale": 1,
+			"fileDataID": 188980,
+			"file": "..\\..\\tileset\\westwood\\alphawestfallleaf_s.png"
+		}
+	]
+}

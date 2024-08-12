@@ -1,0 +1,3 @@
+newmtl mat_silverpinedetaildoodads
+illum 1
+map_Kd ..\..\..\world\nodxt\detail\silverpinedetaildoodads.png

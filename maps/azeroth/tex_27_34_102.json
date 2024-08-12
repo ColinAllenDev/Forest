@@ -1,0 +1,18 @@
+{
+	"layers": [
+		{
+			"index": 0,
+			"effectID": 1468,
+			"scale": 1,
+			"fileDataID": 188802,
+			"file": "..\\..\\tileset\\silverpine\\silverpineshore_s.png"
+		},
+		{
+			"index": 1,
+			"effectID": 3006,
+			"scale": 1,
+			"fileDataID": 189018,
+			"file": "..\\..\\tileset\\wetlands\\wetlandsdirt01_s.png"
+		}
+	]
+}
