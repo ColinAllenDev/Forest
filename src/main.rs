@@ -6,16 +6,21 @@ use bevy::time::Time;
 mod plugins;
 use plugins::obj_loader::ObjLoaderPlugin;
 
+mod camera;
+use camera::orbit_camera::{pan_orbit_camera, PanOrbitCameraBundle, PanOrbitState};
+
 // Main function
 fn main() {
     let mut app = App::new();
     app.add_plugins((DefaultPlugins, ObjLoaderPlugin));
-    app.add_systems(Startup, (load, setup))
-    .add_systems(Update, spin)
+    app.add_systems(Startup, (spawn_mesh, spawn_sun, spawn_camera))
+        .add_systems(Update, pan_orbit_camera.run_if(
+            any_with_component::<PanOrbitState>)
+        )
     .run();
 }
 
-fn load(
+fn spawn_mesh(
     asset_server: Res<AssetServer>,
     mut commands: Commands,
     mut materials: ResMut<Assets<StandardMaterial>>,
@@ -41,20 +46,24 @@ fn load(
     ));
 }
 
-fn setup(mut commands: Commands) {
+fn spawn_sun(mut commands: Commands) {
     // Praise the Sun
     commands.spawn(PointLightBundle {
         transform: Transform::from_translation(Vec3::new(1.0, 5.0, 1.0)),
         ..default()
     });
-    // Camera
-    const ZOOM_FACTOR: f32 = 4.0;
-    let translation_vector = Vec3::new(1.0, 1.0 * ZOOM_FACTOR, 1.0 * ZOOM_FACTOR);
-    commands.spawn(Camera3dBundle {
-        transform: Transform::from_translation(translation_vector)
-            .looking_at(Vec3::new(0.0, 0.0, 0.0), Vec3::Y),
-        ..default()
-    });
+}
+
+fn spawn_camera(mut commands: Commands) {
+    let mut camera = PanOrbitCameraBundle::default();
+
+    // The camera is positioned by changing the components data
+    // Transform would get overwritten
+    camera.state.center = Vec3::new(1.0, 2.0, 3.0);
+    camera.state.radius = 50.0;
+    camera.state.pitch = 15.0f32.to_radians();
+    camera.state.yaw = 30.0f32.to_radians();
+    commands.spawn(camera);
 }
 
 #[derive(Component)]
